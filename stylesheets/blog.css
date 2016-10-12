@@ -11,6 +11,16 @@ section{
   background: white;
 }
 
+article{
+    float: left;
+    width: 600px;
+}
+
+nav{
+    float: right;
+    width: 200px;
+}
+
 h1 {
   background: yellow;
   font-size: 500%;
