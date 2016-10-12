@@ -1,0 +1,31 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background: grey;
+}
+
+section{
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+  background: white;
+}
+
+h1 {
+  background: yellow;
+  font-size: 500%;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+h6{
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
