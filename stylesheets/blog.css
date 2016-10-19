@@ -68,7 +68,10 @@ ul {
 a {
   text-decoration: none;
 }
-a:hover{
+a:hover active{
   text-decoration: underline;
+}
+a:visited{
+  color:inherit;
 }
 /* END Text Style Code */
