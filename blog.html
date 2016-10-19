@@ -1,41 +1,66 @@
+<!--Hi there, what are you doing looking at my HTML?-->
 <!DOCTYPE html>
  <html lang="en">
   <head>
-      <title>Tara Parker-Essig's DES 117 Blog</title>
+      <title>Tara's DES 117 Blog</title>
       <meta charset="utf-8">
       <link rel="stylesheet" href="stylesheets/blog.css">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
+<!-- END The Invisible Stuff -->
 
+<!-- BEGIN The Visible Stuff -->
   <body>
-    <section>
+
+    <!-- BEGIN The Central Section -->
+    <main>
       <header>
         <h1>Tara Parker-Essig's Design 117 Blog.</h1>
       </header>
 
-      <article>
-        <h2>Title</h2>
-        <h3>Date</h3>
-        <p>Content goes here. </p>
-      </article>
+      <!-- BEGIN The BLOG POSTS -->
+      <section class="posts column">
+        <h2>Recent Blog Posts:</h2><hr>
+        <article id="post3">
+          <h3>Third Blog Post</h3>
+          <h4>How can I put a date on something I haven't written yet?</h4>
+          <p>There's no post here yet! I don't know what you were expecting. We haven't been assigned a third blog post to write yet.</p>
+        </article><hr>
+        <article id="post2">
+          <h3>Reflection on creating "Our Roasters" page.</h3>
+          <h4>October 9th 2016</h4>
+          <p>Creating the “Our Roasters” page was quite simple. Given that we could entirely copy the index page we created in class, I did so, then swapped out images and text as needed. I did forget, however, to add the images/ before coffeebeans.jpg and so my image file didn’t load the first time around. I figured out what I’d done pretty quickly though. During the assignment there wasn’t anything I didn’t understand. I accidentally gave the file the wrong name though, and had to go back and change it and links to it to roasters.html instead of the one I’d made up. Next time, I think I’ll read the directions fully before starting, haha.</p>
+        </article><hr>
+        <article id="post1">
+          <h3>Awwwards Critique</h3>
+          <h4>October 4th 2016</h4>
+          <p>Site: https://flex.osram.info/en</p>
+          <p>Critique: The Flex Osram website has a single function, to sell Osram LED “flex lights”. While the product is innovative, the website is not. It relies on a very stoic rectangular format for all of its content, displaying images and words in a card-like manner. However, and despite the lack of impression the design made on me, the website does its job well.</p>
+          <p>The hierarchy of the site is fairly easy to understand, with a large logo, top navigation, and language selection followed by cards of content below. I quite like the images the site uses as they both highlight the possibilities of the product while maintaining an abstract architectural elegance. However, their interesting compositions are limited by the page’s regimented layout. I would love to see the images larger and not boxed in by a very literal card layout. Because it attempts to be dramatic, the copy is a tad mystifying unless you have or are currently taking a class on lighting design (I’m in luck!). This negatively impacts the usability, as one has no idea what each page will actually contain, but perhaps that’s the point. Curiosity drives the viewer through the site. Finally, the use of color is very subtle, perhaps to maintain focus on the images. While I like a minimal color palette, here I think it contrasts too strongly with the vibrant images. I’d like to use more color to accompany more exploded versions of the photos. However, I think someone who is a construction manager or an architect might find the site’s building-block-like layout comforting. In the end, it’s all up to the viewer, isn’t it?</p>
+        </article><hr>
+        <p>Thanks for reading!</p>
+    </section>
 
-      <nav class="sidebar">
-        <h2>Past Posts</h2>
-        <ul class="Post History">
-          <li>Old Post</li>
-          <li>Old Post</li>
-          <li>New Post</li>
-        </ul>
+      <!-- BEGIN The SIDE NAV -->
+      <nav class="sidenav column">
+        <h2>Past Blog Posts:</h2>
+        <ul>
+          <li><a href="#post3">An Old Post</a></li>
+          <li><a href="#post2">Another Old Post</a></li>
+          <li><a href="#post1">Oldest Post Ever</a></li>
+        </ul><hr>
 
         <footer>
+          <h2>Useful Links:</h2>
           <ul>
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-          </ul>
+            <li><a href="mailto:tparkeressig@ucdavis.edu">Email Me</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ftaramakes.github.io/blog.html">W3C Validate This Site</a></li>
+            <li><a href="http://codepen.io/TaraMakes/">Visit My Codepen</a></li>
+          </ul><hr>
         </footer>
       </nav>
-
-    </section>
+    </main>
+    <!-- END The Central Section -->
   </body>
+
 </html>
