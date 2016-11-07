@@ -134,6 +134,13 @@ hr{
 #references hr{
   background-color: #7F7F7F;
 }
+h3{
+	border-top: 5px;
+	border-bottom: 5px;
+	font-size: 1.2em;
+	line-height: 1.25em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
