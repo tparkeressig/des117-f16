@@ -85,49 +85,73 @@ h1{
 /* END Header Code*/
 
 /* BEGIN Two-Column Code */
-article{
-  margin-left: 50px;
-  width: 480px;
-  margin-right: 50px;
-  line-height: 1.25em;
-}
-h2{
-
-}
-hr{
-
-}
-p{
-
-}
-nav{
-  margin-right: 25px;
-  width: 190px;
-  height: 370px;
-  background-color: #0E313F;
-}
-h3{
-
-}
-a:link{
-
-}
-a:visited{
-
-}
-a:focus{
-
-}
-a:hover{
-
-}
-a:active{
-  
-}
 .column {
   vertical-align: top;
   position: relative;
   display: inline-block;
+}
+article{
+  margin-left: 30px;
+  width: 530px;
+  margin-right: 40px;
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+hr{
+  height: 1px;
+  border: 0px;
+  background-color: rgb(222,88,175);
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+nav{
+  margin-right: 25px;
+  width: 170px;
+  height: 340px;
+  padding-top: 40px;
+  background-color: #0E313F;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5em;
+}
+nav ul li section{ /* Selects current page indicator in nav*/
+  width: 150px;
+  height: 40px;
+  color: rgb(222,88,175);
+  background-color: #F2E9DE;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+nav ul li a{ /* Selects actual link indicators in nav*/
+  display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #0E313F;
+    color: #F2E9DE;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+nav ul li a:visited{
+  color: #F2E9DE;
+  background-color: #0E313F;
+}
+nav ul li a:focus{
+  color: #0E313F;
+  background-color: #F2E9DE;
+}
+nav ul li a:hover{
+  color: #0E313F;
+  background-color: #F2E9DE;
+}
+nav ul li a:active{
+  color: #0E313F;
+  background-color: #F2E9DE;
 }
 /* END Two-Column Code */
 
@@ -140,8 +164,9 @@ footer{
   padding: 25px;
   text-align: center;
   color: #0E313F;
+  font-size: .85em;
 }
-h4{
-
+footer a{
+  color: #0E313F;
 }
 /* END Footer Code*/
