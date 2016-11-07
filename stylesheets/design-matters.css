@@ -66,7 +66,6 @@ main {
 header{
     width: 800px;
     height: 350px;
-    background-color: rgb(222,88,175);
     background-image: url(../images/metal-movable-type.jpg);
     background-repeat: no-repeat;
     margin-bottom: 50px;
@@ -80,7 +79,22 @@ h1{
   line-height: 1.1em;
   color: white;
   font-family: 'Source Serif Pro', serif;
+}
+/*list various h1 background colors:*/
+#home h1{
   background-color: rgba(175,25,120,.7);
+}
+#past h1{
+  background-color: rgba(3,195,235,.7);
+}
+#present h1{
+  background-color: rgba(219,81,32,.7);
+}
+#future h1{
+  background-color: rgba(152,193,42,.7);
+}
+#references h1{
+  background-color: rgba(127,127,127,.7);
 }
 /* END Header Code*/
 
@@ -103,7 +117,22 @@ h2{
 hr{
   height: 1px;
   border: 0px;
-  background-color: rgb(222,88,175);
+}
+/*List various colors*/
+#home hr{
+  background-color: #C12F8A;
+}
+#past hr{
+  background-color: #03C3EB;
+}
+#present hr{
+  background-color: #DB5120;
+}
+#future hr{
+  background-color: #98C12A;
+}
+#references hr{
+  background-color: #7F7F7F;
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
@@ -120,7 +149,7 @@ nav{
   font-size: 1.5em;
 }
 /* Below selects current page indicator in nav w/o having to create multiple CSS sheets*/
-#home{
+#home nav li section{
   width: 150px;
   height: 40px;
   color: rgb(222,88,175);
@@ -128,34 +157,34 @@ nav{
   padding-top: 20px;
   padding-left: 20px;
 }
-#past{
+#past nav li section{
   width: 150px;
   height: 40px;
-  color: rgb(222,88,175);
+  color: #03C3EB;
   background-color: #F2E9DE;
   padding-top: 20px;
   padding-left: 20px;
 }
-#present{
+#present nav li section{
   width: 150px;
   height: 40px;
-  color: rgb(222,88,175);
+  color: #DB5120;
   background-color: #F2E9DE;
   padding-top: 20px;
   padding-left: 20px;
 }
-#future{
+#future nav li section{
   width: 150px;
   height: 40px;
-  color: rgb(222,88,175);
+  color: #98C12A;
   background-color: #F2E9DE;
   padding-top: 20px;
   padding-left: 20px;
 }
-#references{
+#references nav li section{
   width: 150px;
   height: 40px;
-  color: rgb(222,88,175);
+  color: #7F7F7F;
   background-color: #F2E9DE;
   padding-top: 20px;
   padding-left: 20px;
