@@ -55,7 +55,6 @@ body {
 }
 main {
   width: 800px;
-  height: 1000px;
   margin: auto;
   background-color: #F2E9DE;
   margin-bottom: 22px;
@@ -111,7 +110,7 @@ article{
 }
 h2{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  font-size: 2.1em;
   line-height: 1em;
 }
 hr{
@@ -135,16 +134,21 @@ hr{
   background-color: #7F7F7F;
 }
 h3{
-	border-top: 5px;
-	border-bottom: 5px;
-	font-size: 1.2em;
-	line-height: 1.25em;
+	border-top: 10px;
+	border-bottom: 10px;
+	font-size: 1.5em;
+	line-height: 1.75em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   line-height: 1.25em;
+	margin-bottom: 20px;
+}
+img {
+	width: 530px;
+	margin-bottom: 10px;
 }
 nav{
   margin-right: 25px;
