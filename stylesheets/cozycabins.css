@@ -1,0 +1,8 @@
+body {
+background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
+color: #ffffff;
+}
+
+.logo {
+  height: 290px;
+}
