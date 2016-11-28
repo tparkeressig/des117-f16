@@ -48,10 +48,14 @@ table {
 }
 
 /* END RESET */
+body, html {
+  height: 100%;
+} /* makes background 100% */
 body {
 background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
 background-size: cover;
 background-position: center;
+background-repeat: no-repeat;
 color: #ffffff;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
@@ -69,7 +73,6 @@ font-size: 1em;
 }
 .logo {
   height: 290px;
-  flex-basis: 25%;
 }
 nav{
   flex-basis: 75%;
