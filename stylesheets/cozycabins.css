@@ -1,8 +1,13 @@
 body {
 background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
 color: #ffffff;
+font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
   height: 290px;
+}
+
+h1{
+  font-family: 'Corben', cursive;
 }
