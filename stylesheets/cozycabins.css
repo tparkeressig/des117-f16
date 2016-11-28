@@ -50,14 +50,51 @@ table {
 /* END RESET */
 body {
 background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
+background-size: cover;
+background-position: center;
 color: #ffffff;
 font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 1em;
 }
 
+/* HEADER */
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 1024px;
+  margin: auto;
+}
 .logo {
   height: 290px;
+  flex-basis: 25%;
 }
+nav{
+  flex-basis: 75%;
+  display: table;
+}
+nav li {
+  display: table-cell;
+  padding-top: 100px;
+  padding-right: 10px;
+}
+/* end header*/
 
+/* MAIN */
+main{
+  flex-basis: 100%;
+  padding-top: 100px;
+  padding-right: 10%;
+  padding-left: 15%;
+}
 h1{
   font-family: 'Corben', cursive;
+  font-weight: 700;
+  font-size: 4em;
 }
+p{
+  margin-top: 2em;
+}
+/* end main */
