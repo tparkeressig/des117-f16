@@ -46,20 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* END RESET */
+
+
 body, html {
   height: 100%;
 } /* makes background 100% */
+
 body {
-background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
 color: #ffffff;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 font-size: 1em;
+}
+
+.content {
+	max-width: 1024px;
+	margin: auto;
+	background: url("../images/cc-bg.jpg"); /* Back out one folder, enter into images folder, load cc-bg.jpg*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* HEADER */
@@ -71,10 +78,14 @@ font-size: 1em;
   width: 1024px;
   margin: auto;
 }
+figure{
+	width: 25%;
+}
 .logo {
-  height: 290px;
+	width: 100%;
 }
 nav{
+	margin-left: 5%;
   flex-basis: 75%;
   display: table;
 }
@@ -88,9 +99,11 @@ nav li {
 /* MAIN */
 main{
   flex-basis: 100%;
-  padding-top: 100px;
-  padding-right: 10%;
-  padding-left: 15%;
+}
+article{
+	width: 70%;
+	margin: auto;
+	margin-left: 30%;
 }
 h1{
   font-family: 'Corben', cursive;
