@@ -32,7 +32,43 @@ table {
 /* END CSS RESET */
 
 /* BEGIN CUSTOM STYLE */
-
+/* BEGIN STRUCTURAL STYLE*/
 body {
   background: #86b6e9;
+}
+main {
+  width: 50%;
+  max-width: 1024px;
+  margin: auto;
+  background: #ffffff;
+}
+/*BEGIN HEADER STYLE*/
+header{
+
+}
+#logo{
+
+}
+nav{
+
+}
+ul{
+
+}
+li{
+
+}
+/*BEGIN MAIN CONTENT STYLE*/
+article{
+
+}
+h2{
+
+}
+h1{
+
+}
+/* BEGIN FOOTER STYLE */
+footer{
+
 }

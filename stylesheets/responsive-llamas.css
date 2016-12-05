@@ -58,7 +58,7 @@ table {
   margin: auto;
   max-width: 800px; /*1024 or 1280 are good max-widths depending on what or who you are designing for*/
 }
-/*The above tyles will render when the viewport width is larger than 800px (this is an arbitrary breakpoint Patrice made up for this example, she'd probably use 1024 for a tablet)*/
+/*The above styles will render when the viewport width is larger than 800px (this is an arbitrary breakpoint Patrice made up for this example, she'd probably use 1024 for a tablet)*/
 
 /*The following styles will render when the viewport has a maximum width of 800 px (when the viewport is smaller than 800 px)...*/
 
