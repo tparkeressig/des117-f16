@@ -32,43 +32,84 @@ table {
 /* END CSS RESET */
 
 /* BEGIN CUSTOM STYLE */
-/* BEGIN STRUCTURAL STYLE*/
+
+/* BEGIN STRUCTURAL STYLE ~~~~~~~~~~~~~~~~~~~ */
 body {
   background: #86b6e9;
+  line-height: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
 }
-main {
-  width: 50%;
-  max-width: 1024px;
-  margin: auto;
-  background: #ffffff;
-}
-/*BEGIN HEADER STYLE*/
+
+/* BEGIN HEADER STYLE ~~~~~~~~~~~~~~~~~~~ */
 header{
+  background: #ffffff;
+  width: 61%;
+  max-width: 2080px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 2%;
+  display: flex;
 
 }
-#logo{
-
+#name{
+  font-size: 22px;
+  line-height: 18px;
+}
+#tagline{
+  font-size: 12px;
+  line-height: 14px;
 }
 nav{
-
+  width: 200px;
+  margin: auto;
+  margin-right: 0px;
 }
 ul{
-
+display: flex;
 }
 li{
-
+  width: auto;
+  margin: auto;
 }
-/*BEGIN MAIN CONTENT STYLE*/
+li a{
+  color: black;
+  text-decoration: none;
+}
+/* BEGIN MAIN CONTENT STYLE ~~~~~~~~~~~~~~~~~~~ */
+main{
+  background: #ffffff;
+  width: 65%;
+  max-width: 2080px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
 article{
-
+  margin-bottom: 2px;
+  background: darkgrey;
+}
+img{
+  height: 200px;
+  width: 100%;
 }
 h2{
-
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
 }
 h1{
-
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 30px;
 }
-/* BEGIN FOOTER STYLE */
+/* BEGIN FOOTER STYLE ~~~~~~~~~~~~~~~~~~~ */
 footer{
-
+  background: #ffffff;
+  width: 61%;
+  max-width: 2080px;
+  margin: auto;
+  margin-bottom: 0px;
+  padding: 2%;
 }
