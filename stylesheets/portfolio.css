@@ -139,6 +139,10 @@ table {
 
 /* END CSS RESET */
 
+/*Change Font Size for smaller screens*/
+@media (max-width: 1024px){
+
+}
 
 /* BEGIN CUSTOM STYLE */
 
@@ -177,11 +181,28 @@ header {
   line-height: 14px;
 }
 
-#name a{
+#name a:link {
   text-decoration: none;
+  color: #221E22;
+}
+
+#name a:visited{
+  text-decoration: none;
+  color: #221E22;
 }
 
 #name a:hover{
+  text-decoration: none;
+  color: #F06449;
+}
+
+#name a:focus{
+  text-decoration: none;
+  color: #F06449;
+}
+
+#name a:active{
+  text-decoration: none;
   color: #F06449;
 }
 
@@ -200,15 +221,30 @@ nav li {
   margin: auto;
 }
 
-nav li a {
+li a:link {
   text-decoration: none;
+  color: #221E22;
 }
 
-nav li a:hover {
+li a:visited {
+  text-decoration: none;
+  color: #221E22;
+}
+
+li a:hover {
   text-decoration: none;
   color: #F06449;
 }
 
+li a:focus {
+  text-decoration: none;
+  color: #F06449;
+}
+
+li a:active {
+  text-decoration: none;
+  color: #F06449;
+}
 
 /* BEGIN MAIN CONTENT STYLE ~~~~~~~~~~~~~~~~~~~ */
 
@@ -292,13 +328,4 @@ footer li {
   font-size: 12px;
 }
 
-footer li a {
-  color: #221E22;
-  text-decoration: none;
-  text-align: center;
-}
-
-footer li a:hover {
-  text-decoration: none;
-  color: #F06449;
-}
+/*Footer li a are essentially the same as top nav li a, so no need to repeat.*/
