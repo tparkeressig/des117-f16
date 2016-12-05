@@ -193,6 +193,10 @@ article {
   width: 100%;
 }
 
+img {
+  width: 100%;
+}
+
 .project-title {
   position: absolute;
   top: 0;
@@ -200,21 +204,20 @@ article {
   bottom: 0;
   left: 0;
   padding-top: 2%;
-  background: rgba(240, 99, 71, 0.8);
+  background: rgba(93, 87, 107, .8);
 }
-
-img {
-  width: 100%;
-}
+/* The hex for the above background color is #5D576B;*/
+/* I also tried out a background of rgba(240, 99, 71, 0.8); aka hex #F06449*/
 
 a:hover .project-title {
-  background: rgba(240, 99, 71, 0.1);
+  background: rgba(93, 87, 107, 0.2);
 }
 
 h2 {
   color: #ffffff;
+  margin-top: 1%;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 36px;
   text-align: center;
   text-shadow: 1px 1px 8px #221E22;
   text-align: center;
