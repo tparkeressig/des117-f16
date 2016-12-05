@@ -142,243 +142,14 @@ table {
 
 /* BEGIN CUSTOM STYLE */
 
-
 /* BEGIN STRUCTURAL STYLE ~~~~~~~~~~~~~~~~~~~ */
 
 body {
-  background: #86b6e9;
+  background: #87BFFF;
   line-height: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 300;
-}
-
-
-/* BEGIN HEADER STYLE ~~~~~~~~~~~~~~~~~~~ */
-
-header {
-  background: #ffffff;
-  width: 61%;
-  max-width: 2080px;
-  margin: auto;
-  margin-bottom: 50px;
-  padding: 2%;
-  display: flex;
-}
-
-#name {
-  font-size: 22px;
-  line-height: 18px;
-}
-
-#tagline {
-  font-size: 12px;
-  line-height: 14px;
-}
-
-nav {
-  width: 200px;
-  margin: auto;
-  margin-right: 0px;
-}
-
-nav ul {
-  display: flex;
-}
-
-nav li {
-  width: auto;
-  margin: auto;
-}
-
-nav li a {
-  color: black;
-  text-decoration: none;
-}
-
-
-/* BEGIN MAIN CONTENT STYLE ~~~~~~~~~~~~~~~~~~~ */
-
-main {
-  background: #ffffff;
-  width: 65%;
-  max-width: 2080px;
-  margin: auto;
-  margin-bottom: 50px;
-  padding-top: 25px;
-  padding-bottom: 23px;
-}
-
-article {
-  width: 100%;
-  margin-bottom: 2px;
-}
-
-img {
-  width: 100%;
-}
-
-.project-button {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  background: rgba(134, 182, 233, 0.8);
-}
-
-a:hover .project-button {
-  background: rgba(134, 182, 233, 0.5);
-}
-/* CSS for Tara Parker-Essig's Desgin 117 Final Project: Responsive Portfolio, Due December 5th 2016 */
-
-
-/* BEGIN CSS RESET */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
-/* END CSS RESET */
-
-
-/* BEGIN CUSTOM STYLE */
-
-
-/* BEGIN STRUCTURAL STYLE ~~~~~~~~~~~~~~~~~~~ */
-
-body {
-  background: #86b6e9;
-  line-height: 14px;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
+  color: #221E22;
 }
 
 
@@ -406,6 +177,14 @@ header {
   line-height: 14px;
 }
 
+#name a{
+  text-decoration: none;
+}
+
+#name a:hover{
+  color: #F06449;
+}
+
 nav {
   width: 200px;
   margin: auto;
@@ -422,8 +201,12 @@ nav li {
 }
 
 nav li a {
-  color: black;
   text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: #F06449;
 }
 
 
@@ -436,27 +219,25 @@ main {
   margin: auto;
   margin-bottom: 50px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 article {
   width: 100%;
-  margin-bottom: 0px;
-
-    display: inline-block;
-    position: relative;
-    width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
 }
 
 .project-title {
   position: absolute;
-  left:0;
-  top:0;
+  top: 0;
   right: 0;
-  bottom:0;
+  bottom: 0;
+  left: 0;
   padding-top: 5%;
-
-    background: rgba(134, 182, 233, 0.9);
+  background: rgba(240, 99, 71, 0.8);
 }
 
 img {
@@ -464,25 +245,25 @@ img {
 }
 
 a:hover .project-title {
-  background: rgba(134, 182, 233, 0.5);
+  background: rgba(240, 99, 71, 0.1);
 }
 
 h2 {
   color: #ffffff;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 36px;
   text-align: center;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 8px #221E22;
   text-align: center;
 }
 
 h1 {
   color: #ffffff;
   font-weight: 500;
-  font-size: 28px;
-  line-height: 30px;
+  font-size: 42px;
+  line-height: 52px;
   text-align: center;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 8px #221E22;
   text-align: center;
 }
 
@@ -512,25 +293,12 @@ footer li {
 }
 
 footer li a {
-  color: black;
+  color: #221E22;
   text-decoration: none;
   text-align: center;
 }
-h2 {
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  text-shadow: 1px 1px 5px #000;
-  text-align: center;
-}
 
-h1 {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 1px 1px 5px #000;
-  text-align: center;
+footer li a:hover {
+  text-decoration: none;
+  color: #F06449;
 }
