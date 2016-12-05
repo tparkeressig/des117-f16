@@ -1,92 +1,10 @@
 /* CSS for Tara Parker-Essig's Desgin 117 Final Project: Responsive Portfolio, Due December 5th 2016 */
 
-
 /* BEGIN CSS RESET */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -139,11 +57,6 @@ table {
 
 /* END CSS RESET */
 
-/*Change Font Size for smaller screens*/
-@media (max-width: 1024px){
-
-}
-
 /* BEGIN CUSTOM STYLE */
 
 /* BEGIN STRUCTURAL STYLE ~~~~~~~~~~~~~~~~~~~ */
@@ -179,6 +92,20 @@ header {
 #tagline {
   font-size: 12px;
   line-height: 14px;
+}
+
+/*Change Font Size for screens smaller than 1024px*/
+@media (max-width: 1024px){
+  #name {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 12px;
+  }
+
+  #tagline {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 #name a:link {
@@ -272,7 +199,7 @@ article {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: 5%;
+  padding-top: 2%;
   background: rgba(240, 99, 71, 0.8);
 }
 
@@ -287,7 +214,7 @@ a:hover .project-title {
 h2 {
   color: #ffffff;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 26px;
   text-align: center;
   text-shadow: 1px 1px 8px #221E22;
   text-align: center;
@@ -303,6 +230,93 @@ h1 {
   text-align: center;
 }
 
+/*Change Font Size for screens smaller than 724px*/
+@media (max-width: 724px){
+  h2 {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+}
+
+/*Change Font Size for screens smaller than 590px*/
+@media (max-width: 590px){
+  h2 {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+}
+
+/*Change Font Size for screens smaller than 440px*/
+@media (max-width: 440px){
+  h2 {
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+}
+
+/*Change Font Size for screens smaller than 340px*/
+@media (max-width: 340px){
+  h2 {
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #221E22;
+    text-align: center;
+  }
+}
 
 /* BEGIN FOOTER STYLE ~~~~~~~~~~~~~~~~~~~ */
 
