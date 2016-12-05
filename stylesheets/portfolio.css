@@ -265,6 +265,24 @@ h1 {
   text-align: center;
 }
 
+h3{
+  margin: 16px;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+h4{
+  margin: 16px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p{
+  margin: 16px;
+  font-size: 12px;
+  line-height: 16px;
+}
 /*Change Font Size for screens smaller than 900px*/
 @media (max-width: 900px){
   h2 {
