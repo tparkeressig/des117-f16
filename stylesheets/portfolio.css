@@ -211,7 +211,6 @@ main {
 article {
   width: 100%;
   margin-bottom: 2px;
-  background: darkgrey;
 }
 
 img {
@@ -387,15 +386,17 @@ body {
 
 header {
   background: #ffffff;
-  width: 61%;
-  max-width: 2080px;
+  width: 65%;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 50px;
-  padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   display: flex;
 }
 
 #name {
+  margin-left: 2%;
   font-size: 22px;
   line-height: 18px;
 }
@@ -408,7 +409,7 @@ header {
 nav {
   width: 200px;
   margin: auto;
-  margin-right: 0px;
+  margin-right: 2%;
 }
 
 nav ul {
@@ -431,31 +432,31 @@ nav li a {
 main {
   background: #ffffff;
   width: 65%;
-  max-width: 2080px;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 50px;
   padding-top: 25px;
-  padding-bottom: 23px;
+  padding-bottom: 25px;
 }
 
 article {
   width: 100%;
-  margin-bottom: 2px;
-  background: darkgrey;
+  margin-bottom: 0px;
+
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.project-title {
+  position: absolute;
 }
 
 img {
   width: 100%;
 }
 
-.project-button {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  background: rgba(134, 182, 233, 0.8);
-}
-
-a:hover .project-button {
+a:hover .project-title {
   background: rgba(134, 182, 233, 0.5);
 }
 
@@ -483,11 +484,12 @@ h1 {
 
 footer {
   background: #ffffff;
-  width: 61%;
-  max-width: 2080px;
+  width: 65%;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 0px;
-  padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 footer ul {
@@ -523,35 +525,5 @@ h1 {
   line-height: 30px;
   text-align: center;
   text-shadow: 1px 1px 5px #000;
-  text-align: center;
-}
-
-
-/* BEGIN FOOTER STYLE ~~~~~~~~~~~~~~~~~~~ */
-
-footer {
-  background: #ffffff;
-  width: 61%;
-  max-width: 2080px;
-  margin: auto;
-  margin-bottom: 0px;
-  padding: 2%;
-}
-
-footer ul {
-  padding-left: 30%;
-  padding-right: 30%;
-  display: flex;
-}
-
-footer li {
-  width: auto;
-  margin: auto;
-  font-size: 12px;
-}
-
-footer li a {
-  color: black;
-  text-decoration: none;
   text-align: center;
 }
