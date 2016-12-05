@@ -450,6 +450,13 @@ article {
 
 .project-title {
   position: absolute;
+  left:0;
+  top:0;
+  right: 0;
+  bottom:0;
+  padding-top: 5%;
+
+    background: rgba(134, 182, 233, 0.9);
 }
 
 img {
