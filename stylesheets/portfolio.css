@@ -1,39 +1,150 @@
 /* CSS for Tara Parker-Essig's Desgin 117 Final Project: Responsive Portfolio, Due December 5th 2016 */
+
+
 /* BEGIN CSS RESET */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
+
 /* END CSS RESET */
+
 
 /* BEGIN CUSTOM STYLE */
 
+
 /* BEGIN STRUCTURAL STYLE ~~~~~~~~~~~~~~~~~~~ */
+
 body {
   background: #86b6e9;
   line-height: 14px;
@@ -41,8 +152,10 @@ body {
   font-weight: 300;
 }
 
+
 /* BEGIN HEADER STYLE ~~~~~~~~~~~~~~~~~~~ */
-header{
+
+header {
   background: #ffffff;
   width: 61%;
   max-width: 2080px;
@@ -50,34 +163,42 @@ header{
   margin-bottom: 50px;
   padding: 2%;
   display: flex;
-
 }
-#name{
+
+#name {
   font-size: 22px;
   line-height: 18px;
 }
-#tagline{
+
+#tagline {
   font-size: 12px;
   line-height: 14px;
 }
-nav{
+
+nav {
   width: 200px;
   margin: auto;
   margin-right: 0px;
 }
-ul{
-display: flex;
+
+nav ul {
+  display: flex;
 }
-li{
+
+nav li {
   width: auto;
   margin: auto;
 }
-li a{
+
+nav li a {
   color: black;
   text-decoration: none;
 }
+
+
 /* BEGIN MAIN CONTENT STYLE ~~~~~~~~~~~~~~~~~~~ */
-main{
+
+main {
   background: #ffffff;
   width: 65%;
   max-width: 2080px;
@@ -86,30 +207,73 @@ main{
   padding-top: 25px;
   padding-bottom: 23px;
 }
-article{
+
+article {
+  width: 100%;
   margin-bottom: 2px;
   background: darkgrey;
 }
-img{
-  height: 200px;
+
+img {
   width: 100%;
 }
-h2{
+
+.project-button {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background: rgba(66, 149, 204, .8);
+}
+
+a:hover .project-button {
+  background: rgba(66, 149, 204, .3);
+}
+
+h2 {
   color: #ffffff;
   font-size: 16px;
   line-height: 28px;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+  text-align: center;
 }
-h1{
+
+h1 {
   color: #ffffff;
+  font-weight: 500;
   font-size: 28px;
   line-height: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000;
+  text-align: center;
 }
+
+
 /* BEGIN FOOTER STYLE ~~~~~~~~~~~~~~~~~~~ */
-footer{
+
+footer {
   background: #ffffff;
   width: 61%;
   max-width: 2080px;
   margin: auto;
   margin-bottom: 0px;
   padding: 2%;
+}
+
+footer ul {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+}
+
+footer li {
+  width: auto;
+  margin: auto;
+  font-size: 12px;
+}
+
+footer li a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
