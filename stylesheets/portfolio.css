@@ -137,6 +137,7 @@ nav {
   width: 200px;
   margin: auto;
   margin-right: 2%;
+  float: right;
 }
 
 nav ul {
@@ -155,7 +156,8 @@ nav li {
   nav {
     width: 100px;
     margin: auto;
-    margin-right: 5%;
+    margin-right: 0%;
+    float: right;
   }
 
   nav li {
@@ -407,6 +409,7 @@ footer {
 }
 
 footer ul {
+  text-align: center;
   padding-left: 30%;
   padding-right: 30%;
   display: flex;
@@ -420,8 +423,15 @@ footer li {
 
 /*Change Font Size for screens smaller than 690px*/
 @media (max-width: 690px){
+  footer ul {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+  }
+
   footer li {
-    width: auto;
+    width: 90%;
     margin: auto;
     font-size: 8px;
   }
@@ -432,6 +442,6 @@ footer li {
 /* RESPONISVE PAGE WIDTHS */
 @media (max-width: 768px){
   header, main, footer{
-    width: 90%;
+    width: 98%;
   }
 }
