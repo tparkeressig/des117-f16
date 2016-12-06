@@ -98,12 +98,12 @@ header {
 @media (max-width: 680px){
   #name {
     margin-left: 2%;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 12px;
   }
 
   #tagline {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 12px;
   }
 }
@@ -149,6 +149,7 @@ nav li {
   font-size: 16px;
 }
 
+/* Menu items of Resume, etc here. */
 /*Change Font Size for screens smaller than 680px*/
 @media (max-width: 680px){
   nav {
@@ -160,7 +161,7 @@ nav li {
   nav li {
     width: auto;
     margin: 2%;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
